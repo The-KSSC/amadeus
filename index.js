@@ -18,8 +18,6 @@ fs.readdir("./commands/", (err, files) => {
 		require(`./commands/${filename}`).run(client)
 	})
 })
-client.on("messageCreate",async message=>{
-})
 
 // Log in to Discord with your client's token
 client.login(botToken);
