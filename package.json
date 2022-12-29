@@ -1,0 +1,22 @@
+{
+  "name": "amadeus",
+  "version": "1.0.0",
+  "description": "The KSSC's discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-KSSC/amadeus.git"
+  },
+  "author": "The KSSC.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-KSSC/amadeus/issues"
+  },
+  "homepage": "https://github.com/The-KSSC/amadeus#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
